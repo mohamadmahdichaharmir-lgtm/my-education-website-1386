@@ -1,9 +1,4 @@
 body {
-  margin: 0;
-  overflow-x: hidden;
-}
-
-body {
   background-image: radial-gradient(
     circle,
     rgba(190, 100, 45, 0.35) 1px,
@@ -404,4 +399,181 @@ h5{
   mask-position: center;
   margin-top: 10px;
   margin-left: 100px;
+}
+
+.text-footer{
+  text-align: center;
+  color: white;
+}
+
+.packs{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pack-1{
+  justify-content: center;
+    display: flex;
+  flex-direction: row-reverse;
+  gap: 350px;
+  background: #ffffff59;
+  border-radius: 50px;
+  border: 2px solid #ffffffb3;
+  box-shadow:
+    inset 0 2px #fff,
+    0 20px 40px #0002;
+      background-image:
+    radial-gradient(circle, rgba(190, 100, 45, 0.25) 1px, transparent 1.7px),
+    radial-gradient(ellipse at 50% 45%, #51200b, transparent 65%),
+    radial-gradient(ellipse at 20% 30%, #301307, transparent 55%),
+    linear-gradient(135deg, #100704, #050403);
+  background-attachment: fixed;
+    backdrop-filter: blue(24px) saturate(180%);
+  
+  color: whitesmoke;
+}
+
+.pack-2{
+  justify-content: center;
+    display: flex;
+  flex-direction: row-reverse;
+  gap: 350px;
+  background: #ffffff59;
+  border-radius: 50px;
+  border: 2px solid #ffffffb3;
+  box-shadow:
+    inset 0 2px #fff,
+    0 20px 40px #0002;
+      background-image:
+    radial-gradient(circle, rgba(190, 100, 45, 0.25) 1px, transparent 1.7px),
+    radial-gradient(ellipse at 50% 45%, #51200b, transparent 65%),
+    radial-gradient(ellipse at 20% 30%, #301307, transparent 55%),
+    linear-gradient(135deg, #100704, #050403);
+  background-attachment: fixed;
+    backdrop-filter: blue(24px) saturate(180%);
+  
+  color: whitesmoke;
+}
+
+.pack-3{
+  justify-content: center;
+    display: flex;
+  flex-direction: row-reverse;
+  gap: 350px;
+  background: #ffffff59;
+  border-radius: 50px;
+  border: 2px solid #ffffffb3;
+  box-shadow:
+    inset 0 2px #fff,
+    0 20px 40px #0002;
+      background-image:
+    radial-gradient(circle, rgba(190, 100, 45, 0.25) 1px, transparent 1.7px),
+    radial-gradient(ellipse at 50% 45%, #51200b, transparent 65%),
+    radial-gradient(ellipse at 20% 30%, #301307, transparent 55%),
+    linear-gradient(135deg, #100704, #050403);
+  background-attachment: fixed;
+    backdrop-filter: blue(24px) saturate(180%);
+  
+  color: whitesmoke;
+}
+
+.section-pack{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 10px;
+  gap: 100px;
+  color: gray;
+}
+
+.Easy{
+  margin-bottom: 30px;
+  font-size: 20px;
+  text-align: center;
+    background: #ffffff59;
+  backdrop-filter: blue(24px) saturate(180%);
+  border-radius: 999px;
+  border: 2px solid #ffffffb3;
+  color: #ffffffb3;
+  box-shadow: inset 0 2px #fff, 0 20px 40px #0002;
+  background-image: linear-gradient(rgb(0, 192, 0),#0000);
+}
+
+.Medium{
+  margin-bottom: 30px;
+  font-size: 20px;
+  text-align: center;
+  background: #ffffff59;
+  backdrop-filter: blue(24px) saturate(180%);
+  border-radius: 999px;
+  border: 2px solid #ffffffb3;
+  color: #ffffffb3;
+  box-shadow: inset 0 2px #fff, 0 20px 40px #0002;
+  background-image: linear-gradient(#ff5500,#0000);
+}
+
+.Hard{
+  margin-bottom: 30px;
+  font-size: 20px;
+  text-align: center;
+      background: #ffffff59;
+  backdrop-filter: blue(24px) saturate(180%);
+  border-radius: 999px;
+  border: 2px solid #ffffffb3;
+  color: #ffffffb3;
+  box-shadow: inset 0 2px #fff, 0 20px 40px #0002;
+  background-image: linear-gradient(firebrick,#0000);
+}
+
+.mix-button-2{
+  display: flex;
+  flex-direction: row-reverse;
+        background: #ffffff59;
+  backdrop-filter: blue(24px) saturate(180%);
+  border-radius: 999px;
+  border: 2px solid #ffffffb3;
+  color: #ffffffb3;
+  box-shadow: inset 0 2px #fff, 0 20px 40px #0002;
+  background-image: linear-gradient(#ff5500,#0000);
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  transform: scale(1);
+  opacity:1;
+}
+
+.mix-button-2:hover{
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+h6{
+  font-size: 10px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+
+.icon-footer{
+    width: 30px;
+  height: 30px;
+  background-color: #ff5500;
+
+  mask: url(./asset/icon/arrow-right.png);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  margin-right: 20px;
+  margin-top: 12px;
+}
+
+details{
+  color: #ff5500;
+  margin-top: 40px;
+  cursor: default;
+}
+
+.p-point{
+  margin-top: 30px;
 }
